@@ -11,7 +11,7 @@ function Portfolio() {
     <div>
     <br/>
     <div className="container">
-    <div className="card bg-dark text-white">
+    <div className="card bg-dark text-white" width="100%">
        <img className="card-img" src={Amsterdam} alt="amsterdampic" />
      </div>
     </div>
@@ -19,7 +19,7 @@ function Portfolio() {
       <br/>
 
 
-      <Container text id="">
+      <Container text id="about-me">
       <Item.Group relaxed>
       <Item>
         <Item.Image size="small" src={PortfolioPic} alt="about me" />
