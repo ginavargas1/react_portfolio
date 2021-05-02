@@ -9,7 +9,7 @@ function Footer() {
        <div id="footer-links">
            <Button circular color="linkedin" icon="linkedin" as="a" href="https://www.linkedin.com/in/ginavargas89/" />
               
-           <Button circular color="grey" icon="github" as="a" href="https://github.com/ginavargas1" />
+           <Button circular color="black" icon="github" as="a" href="https://github.com/ginavargas1" />
        </div>
        <br/>
      </footer>

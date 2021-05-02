@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/portfolio.css";
 import Amsterdam from "../images/amsterdam.jpg";
 import PortfolioPic from "../images/profilePic.jpeg"
-import { Item, Container,Image } from 'semantic-ui-react'
+import { Item, Container } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
 
@@ -11,15 +11,15 @@ function Portfolio() {
     <div>
     <br/>
     <div className="container">
-    <div className="card bg-dark text-white" width="100%">
-       <Image src={Amsterdam} alt="amsterdampic" size="huge"/>
+    <div className="card bg-dark text-white">
+       <img className="card-img" src={Amsterdam} alt="amsterdampic" />
      </div>
     </div>
 
       <br/>
 
 
-      <Container text id="about-me">
+      <Container text id="">
       <Item.Group relaxed>
       <Item>
         <Item.Image size="small" src={PortfolioPic} alt="about me" />
