@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Portfolio
 
-[Portfolio Website](https://ginavargas1.github.io/portfolio_/)
+[Portfolio Website](https://ginavargas1.github.io/react_portfolio/)
   ## Table of Contents
 
   * [Description](#Description)
