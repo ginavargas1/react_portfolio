@@ -3,6 +3,8 @@ import React from "react";
 
 
 function Navbar() {
+  
+
   return (
     <nav>
     <div className="container">
@@ -18,9 +20,6 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#additional-links">Additional Links</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="./files/Gina Vargas Resume .pdf">Resume</a>
         </li>
       </ul>
    </div>

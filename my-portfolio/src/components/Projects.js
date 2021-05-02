@@ -28,7 +28,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://radiant-harbor-61772.herokuapp.com/" />
+                   <Button content="Link" primary  as="a" href="https://radiant-harbor-61772.herokuapp.com/" />
                 </Card.Content>
             </Card>
             <Card>
@@ -43,9 +43,9 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://murmuring-island-53639.herokuapp.com/" />
+                   <Button content="Link" primary  as="a" href="https://murmuring-island-53639.herokuapp.com/" />
                 </Card.Content>
-            </Card>
+            </Card> 
             <Card>
                 <Image src={Fitness} alt="Fitness Tracker" wrapped ui={false}/>
                 <Card.Content>
@@ -58,7 +58,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://workout-tracker-g.herokuapp.com/stats" />
+                   <Button content="Link" primary  as="a" href="https://workout-tracker-g.herokuapp.com/stats" />
                 </Card.Content>
             </Card>
             <Card>
@@ -73,7 +73,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://youtu.be/SUfSYc_hoAs" />
+                   <Button content="Link" primary  as="a" href="https://youtu.be/SUfSYc_hoAs" />
                 </Card.Content>
             </Card>
             <Card>
@@ -88,7 +88,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://youtu.be/oZ6FMG07cJs" />
+                   <Button content="Link" primary  as="a" href="https://youtu.be/oZ6FMG07cJs" />
                 </Card.Content>
             </Card>
             <Card>
@@ -103,7 +103,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://guarded-plains-25331.herokuapp.com" />
+                   <Button content="Link" primary  as="a" href="https://guarded-plains-25331.herokuapp.com" />
                 </Card.Content>
             </Card>
         </Card.Group>
