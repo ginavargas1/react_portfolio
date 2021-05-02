@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/portfolio.css";
 import Amsterdam from "../images/amsterdam.jpg";
 import PortfolioPic from "../images/profilePic.jpeg"
-import { Item } from 'semantic-ui-react'
+import { Item, Container,Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
 
@@ -12,20 +12,20 @@ function Portfolio() {
     <br/>
     <div className="container">
     <div className="card bg-dark text-white" width="100%">
-       <img className="card-img" src={Amsterdam} alt="amsterdampic" />
+       <Image src={Amsterdam} alt="amsterdampic" size="huge"/>
      </div>
     </div>
 
       <br/>
 
-    <section className="container justify-content-center" id="about-me" padding="1rem 12rem 1rem 0rem"> 
 
+      <Container text id="about-me">
       <Item.Group relaxed>
       <Item>
-        <Item.Image size="small" src={PortfolioPic} alt="" />
+        <Item.Image size="small" src={PortfolioPic} alt="about me" />
 
         <Item.Content verticalAlign='middle'>
-           <Item.Header size="large">About Me</Item.Header>
+           <Item.Header as="h2">About Me</Item.Header>
            <Item.Description>
              I’m an aspiring Full-Stack Web Developer with a hunger for knowledge in Front-End 
              and Back end. As a full-time student at UCLA Extension Bootcamp, I am now familiar and well versed 
@@ -38,7 +38,7 @@ function Portfolio() {
           </Item.Content>
       </Item>
       </Item.Group>
-    </section>
+      </Container>
 
     </div>
   );
