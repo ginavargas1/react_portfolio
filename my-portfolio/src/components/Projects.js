@@ -1,9 +1,10 @@
 import React from "react";
 import Project2 from "../images/furrydaycare.png"
-import EmployeeTracker from "../images/employeeTracker2.png"
+import EmployeeTracker from "../images/employeeTracker.png"
 import Notes from "../images/note_taker.png"
 import Move from "../images/the_move.png"
 import Fitness from "../images/fitness.png"
+import Ecommerce from "../images/e-commerce.png"
 import { Button, Card, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
@@ -42,7 +43,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://guarded-plains-25331.herokuapp.com" />
+                   <Button circular color="secondary"  as="a" href="https://murmuring-island-53639.herokuapp.com/" />
                 </Card.Content>
             </Card>
             <Card>
@@ -57,7 +58,7 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://guarded-plains-25331.herokuapp.com" />
+                   <Button circular color="secondary"  as="a" href="https://workout-tracker-g.herokuapp.com/stats" />
                 </Card.Content>
             </Card>
             <Card>
@@ -72,22 +73,22 @@ function Projects() {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://github.com/ginavargas1/employee-tracker" />
+                   <Button circular color="secondary"  as="a" href="https://youtu.be/SUfSYc_hoAs" />
                 </Card.Content>
             </Card>
             <Card>
-                <Image src={Notes} alt="Employee Tracker" wrapped ui={false}/>
+                <Image src={Ecommerce} alt="E-Commerce" wrapped ui={false}/>
                 <Card.Content>
-                    <Card.Header>Note Taker</Card.Header>
+                    <Card.Header>E-Commerce</Card.Header>
                     <Card.Meta>
                         <span className="date">2021</span>
                     </Card.Meta>
                     <Card.Description>
-                       Note Taker is an application that allows the user to create and delete notes
+                      Back-End application
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                   <Button circular color="secondary"  as="a" href="https://guarded-plains-25331.herokuapp.com" />
+                   <Button circular color="secondary"  as="a" href="https://youtu.be/oZ6FMG07cJs" />
                 </Card.Content>
             </Card>
             <Card>
