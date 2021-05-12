@@ -28,7 +28,7 @@ function Portfolio() {
            <Item.Header as="h2">About Me</Item.Header>
            <Item.Description>
              I’m an aspiring Full-Stack Web Developer with a hunger for knowledge in Front-End 
-             and Back end. As a full-time student at UCLA Extension Bootcamp, I am now familiar and well versed 
+             and Back-End. As a full-time student at UCLA Extension Bootcamp, I am now familiar and well versed 
              in HTML, CSS, JavaScript, and currently learning Node. Within the past weeks, my works include fixing
              and creating websites to fully operating and functioning websites. In addition to web development, I 
              enjoy learning about new technology since the start of my professional career, working for major tech 
